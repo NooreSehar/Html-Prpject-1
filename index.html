@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+  <h1>Contact Our Company</h1>
+  <p>We'd love to hear from you!</p>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h2>Send us a Message</h2>
+  <form>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" name="phone" placeholder=""><br>
+      <span>Format:123-456-7890</span><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Message</legend>
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject">
+        <option>General Inquiry</option>
+        <option>Support</option>
+        <option>Feedback</option>
+        <option>Other</option>
+      </select><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="10" cols="50"></textarea>
+
+      <label><br><br>
+        <input type="checkbox" name="urgent"> Mark as urgent
+      </label>
+
+      <p>Preferred contact method:</p>
+      <label><input type="radio" name="contact" value="email" checked> Email</label>
+      <label><input type="radio" name="contact" value="phone"> Phone</label>
+    </fieldset>
+
+    <div class="form-buttons">
+      <input type="submit" value="Send Message">
+      <input type="reset" value="Clear Form">
+    </div>
+  </form>
+
+  <div class="location">
+    <h2>Our Location</h2>
+    <p>
+      123 Business Road<br>
+      Business City, BC 12345<br>
+      United States
+    </p>
+
+    <h3>Office Hours</h3>
+    <table border="1">
+      <tr>
+        <th>Day</th>
+        <th>Hours</th>
+      </tr>
+      <tr>
+        <td>Monday - Friday</td>
+        <td>9:00 AM - 5:00 PM</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>10:00 AM - 2:00 PM</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>Closed</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2023 Our Company. All rights reserved.</p>
+    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+  </div>
+
+</body>
+</html>
